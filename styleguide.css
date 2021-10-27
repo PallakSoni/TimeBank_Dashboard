@@ -1,0 +1,76 @@
+:root { 
+  --black: #000000db;
+  --charade: #1f2937;
+  --dove-gray: #707070;
+  --geebung: #d392208c;
+  --persian-red: #cf3434d9;
+  --white: #ffffff;
+  --white-2: #ffffffdb;
+ 
+  --font-size-l: 50px;
+  --font-size-m: 40px;
+  --font-size-s: 30px;
+ 
+  --font-family-segoeui-bold: "SegoeUI-Bold", Helvetica;
+  --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
+  --font-family-segoeui-semibold: "SegoeUI-Semibold", Helvetica;
+}
+.segoeui-semi-bold-charade-40px {
+  color: var(--charade);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.segoeui-regular-normal-black-40px {
+  color: var(--black);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-bold-charade-50px {
+  color: var(--charade);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-bold-white-40px {
+  color: var(--white-2);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-regular-normal-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-bold-white-40px-2 {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-regular-normal-charade-30px {
+  color: var(--charade);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
